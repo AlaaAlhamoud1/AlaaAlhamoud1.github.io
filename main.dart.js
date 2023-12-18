@@ -37292,7 +37292,7 @@ s.dj(new A.a2N(q))
 q.e=new A.aP(s,new A.aF(B.h,B.De,r),r.h("aP<av.T>"))
 q.d.cJ(0)},
 O(a7){var s,r,q,p,o=this,n=null,m="Hello, It's Me",l="InriaSerif",k="Alaa Alhamoud",j="And I'm an ",i="IT Engineer",h="facebook.png",g="instagram.png",f="linked_in.png",e="telegram.png",d="Download CV",c=A.cN(a7,n,t.w).w.a,b=c.a,a=t.rr,a0=t.c,a1=b/30,a2=b/15,a3=b/50,a4=c.b,a5=b/4,a6=a4/4
-if(b>=600){s=b/35
+if(b>=800){s=b/35
 r=A.jY(m,A.dE(n,n,B.i,n,n,n,n,n,l,n,n,s,n,n,n,n,n,!0,n,n,n,n,n,n,n,n),B.b3)
 q=A.jY(k,A.dE(n,n,B.i,n,n,n,n,n,l,n,n,b/20,n,n,n,n,n,!0,n,n,n,n,n,n,n,n),B.b3)
 p=b/7
