@@ -15,7 +15,7 @@
     the `--base-href` argument provided to `flutter build`.
   -->
   <base href="/">
-  <!-- <base href="https://alaaalhamoud1.github.io/"> -->
+
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="description" content="A new Flutter project.">
@@ -31,29 +31,31 @@
 
   <title>alaa_portfolio</title>
   <link rel="manifest" href="manifest.json">
-
-  <script>
-    // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "2975144248";
-  </script>
-  <!-- This script adds the flutter initialization JS code -->
-  <script src="flutter.js" defer></script>
 </head>
 <body>
-  <script>
-    window.addEventListener('load', function(ev) {
-      // Download main.dart.js
-      _flutter.loader.loadEntrypoint({
-        serviceWorker: {
-          serviceWorkerVersion: serviceWorkerVersion,
-        },
-        onEntrypointLoaded: function(engineInitializer) {
-          engineInitializer.initializeEngine().then(function(appRunner) {
-            appRunner.runApp();
-          });
-        }
-      });
-    });
+  <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyCm8E6yV3T6blHjym7ICQpmMGBcqSqGTUQ",
+    authDomain: "alaa-s-portfolio.firebaseapp.com",
+    projectId: "alaa-s-portfolio",
+    storageBucket: "alaa-s-portfolio.firebasestorage.app",
+    messagingSenderId: "181556765757",
+    appId: "1:181556765757:web:db0c34015669356b5db654",
+    measurementId: "G-LHXGC87KFH"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
   </script>
+  <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
