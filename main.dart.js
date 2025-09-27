@@ -78218,7 +78218,7 @@ s($,"aN3","akf",()=>{var q=t.s
 return A.b([A.a8j("assets/images/flutter.png",A.b(["Developed responsive cross-platform apps with Flutter","Implemented complex UI/UX with animations and custom widgets","Optimized performance with effective state management (Bloc, Provider)","Managed app deployments to Google Play Store and Apple App Store"],q),"Flutter"),A.a8j("assets/images/java.png",A.b(["Built Android apps and backend systems using Java","Applied OOP principles to write clean and modular code","Worked with Java frameworks and tools for scalable apps"],q),"Java"),A.a8j("assets/images/pyhton.png",A.b(["Built ML models and explored AI applications using Python","Worked on Natural Language Processing (NLP) projects for text analysis and classification","Implemented NLP tasks like sentiment analysis, keyword extraction, and language modeling","Built conversational AI using Rasa: intent + entity NLU, stories/rules, custom actions and slot management"],q),"Python"),A.a8j("assets/images/laravel.png",A.b(["Designed RESTful APIs and integrated with frontend apps","Ensured clean code with MVC architecture and Laravel best practices"],q),"Laravel")],A.au("x<Ka>"))})
 r($,"aIq","um",()=>{var q,p,o,n,m,l,k,j,i=t.N,h=J.iG(11,i)
 for(q=0;q<11;q=p){p=q+1
-h[q]="assets/images/reserva"+p+".jpg"}o=A.au("x<lc>")
+h[q]="assets/images/reserva"+p+".png"}o=A.au("x<lc>")
 n=A.vu(A.xX("Created Reserva, a user-friendly app for booking restaurant tables. Built with Flutter, it featured easy reservations, instant notifications, and a simple feedback system for a seamless dining experience",A.b([A.qf(B.cT,h)],o),"assets/images/reserva.png","Reserva"),!0)
 h=J.iG(11,i)
 for(q=0;q<11;q=p){p=q+1
